@@ -30,6 +30,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 #nav ul {
@@ -56,4 +57,32 @@ body {
 
 #nav li a:hover {
   text-decoration: underline;
+}
+
+#top-project {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.main-project {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+img.main-project {
+  height: 300px;
+  object-fit: cover;
+  object-position: 12% 12%;
+  margin-right: 30px;
+
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }

@@ -65,14 +65,22 @@ body {
   justify-content: center;
 }
 
-.main-project {
+#all-projects-holder {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-flow: row wrap;
+
 }
 
-img.main-project {
+.project-holder {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  width: 50%;
+  min-width: 630px;
+}
+
+
+.main-project-img {
   height: 300px;
   object-fit: cover;
   object-position: 12% 12%;
@@ -85,4 +93,44 @@ img.main-project {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.project-info h2 {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.project-info p {
+  margin: 0;
+
+}
+
+#welcome-text {
+  display: flex;
+  justify-content: center;
+}
+
+#banner-images {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.banner-img {
+  margin: 0;
+  width: 32%;
+}
+
+.contact-question {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.contact-question p {
+  margin-right: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
 }

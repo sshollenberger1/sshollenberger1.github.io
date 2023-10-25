@@ -15,6 +15,36 @@
       </ul>
     </nav>
   </div>
-  <p>How to contact me</p>
+  <h2>Want to Contact Me? Fill out the questions below!</h2>
+
+  <div>
+    <div class="contact-question">
+      <p>What's your name?</p>
+      <input type="text" placeholder="John Smith"></input>
+    </div>
+    <div class="contact-question">
+      <p>What's your preferred email?</p>
+      <input type="text" placeholder="example@gmail.com"></input>
+    </div>
+    <div class="contact-question">
+      <p>What's your preferred phone number?</p>
+      <input type="text" placeholder="123-456-7890"></input>
+    </div>
+    <div class="contact-question">
+      <p>What's your favorite page on the website?</p>
+      <input type="radio" id="home-radio" name="fav_part" value="Home"></input>
+      <label for="home-radio">Home</label>
+      <p></p>
+      <input type="radio" id="past-work-radio" name="fav_part" value="Past Work"></input>
+      <label for="past-work-radio">Past Work</label>
+      <p></p>
+      <input type="radio" id="contact-radio" name="fav_part" value="Contact"></input>
+      <label for="contact-radio">Contact</label>
+    </div>
+
+    <input type="button" value= "Submit!" onclick="displayPage()"></input>
+
+  </div>
+
 </body>
 </html>

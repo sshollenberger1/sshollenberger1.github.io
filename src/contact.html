@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <title>Portfolio Page</title>
-    <meta name="description" content="" />
+  <meta charset="utf-8">
+  <title>Portfolio Page</title>
+  <meta name="description" content="" />
 </head>
+
 <body>
   <div id="nav">
     <nav>
@@ -17,18 +19,18 @@
   </div>
   <h2>Want to Contact Me? Fill out the questions below!</h2>
 
-  <div>
+  <div id="contact-section">
     <div class="contact-question">
       <p>What's your name?</p>
-      <input type="text" placeholder="John Smith"></input>
+      <input type="text" id="nameInput" placeholder="John Smith"></input>
     </div>
     <div class="contact-question">
       <p>What's your preferred email?</p>
-      <input type="text" placeholder="example@gmail.com"></input>
+      <input type="text" id="emailInput" placeholder="example@gmail.com"></input>
     </div>
     <div class="contact-question">
       <p>What's your preferred phone number?</p>
-      <input type="text" placeholder="123-456-7890"></input>
+      <input type="text" id="phoneInput" placeholder="123-456-7890"></input>
     </div>
     <div class="contact-question">
       <p>What's your favorite page on the website?</p>
@@ -42,9 +44,10 @@
       <label for="contact-radio">Contact</label>
     </div>
 
-    <input type="button" value= "Submit!" onclick="displayPage()"></input>
+    <input id="display" type="button" value="Submit!"></input>
 
   </div>
 
 </body>
+
 </html>

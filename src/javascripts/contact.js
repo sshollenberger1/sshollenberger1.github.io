@@ -1,5 +1,4 @@
 function displayPage() {
-  console.log('hello world');
   const nameInput = document.getElementById('nameInput');
   const emailInput = document.getElementById('emailInput');
   const phoneInput = document.getElementById('phoneInput');
